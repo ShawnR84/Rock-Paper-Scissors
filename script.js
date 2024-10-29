@@ -13,3 +13,22 @@ function getComputerChoice() {
 
     return answer;
 }
+
+function getHumanChoice() {
+    let answer
+  let choice = prompt('Rock, Paper, Scissors');
+
+    if(choice.toLowerCase() == 'rock') {
+        answer = 'Rock';
+    } else if(choice.toLowerCase() == 'paper') {
+        answer = 'Paper';
+    } else if (choice.toLowerCase() == 'scissors') {
+        answer = 'Scissors';
+    } else {
+        answer = 'Invalid input';
+    }
+
+    return answer;
+
+}
+
